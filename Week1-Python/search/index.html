@@ -16,26 +16,34 @@
     </nav>
     <nav id="nav-2">
         <ul>
-            <li>Gmail</li>
+            <li><a href="./advanced-search.html">Advanced</a></li>
             <a href="./images.html">
                 <li>Images</li>
             </a>
-            <li>B</li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">B</a>
+                <div class="dropdown-content">
+                    <a href="./advanced-search.html">Advanved</a>
+                </div>
+            </li>
         </ul>
     </nav>
 </header>
 
 <body>
     <div class="search-container">
-        <div class="label">Google</div>
+        <div class="labelbox">
+            <div class="label">Google</div>
+        </div>
         <form action="https://google.com/search" id="homeform">
             <input id="search-field" type="text" name="q">
             <div class="search-buttons">
                 <input id="search-button" type="submit" value="Google Search">
-                <input id="search-button" type="submit" value="Feeling Lucky">
+                <input id="search-button" type="submit" value="I'm Feeling Lucky">
             </div>
-        </form>
     </div>
+    <div class="empty-block"></div>
+
 </body>
 
 </html>
