@@ -3,6 +3,7 @@
   padding: 0;
   border: 0;
   font-family: arial, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -136,125 +137,10 @@ a {
   color: #ffffff;
 }
 
-.adv-search {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 20px;
-  margin: 25px 35px;
-  font-size: 20px;
-  color: salmon;
-}
-
-.line {
-  width: 100%;
-  border-bottom: darkgray solid 0.5px;
-}
-
-#advform {
-  display: flex;
-  flex-shrink: 2;
-}
-
-.form-container {
-  /* display: block; */
-  max-width: 1140px;
-  min-width: 375px;
-  width: 96vw;
-  height: auto;
-  margin: 40px 2% 0 45px;
-  /* border: rgb(204, 0, 187) solid; */
-}
-
-.box1 {
-  width: 16%;
-  min-width: 165px;
-  display: block;
-  /* border: green solid; */
-}
-
-.find-pages {
-  color: #ffffff;
-  font-size: 16px;
-  padding: 0 0 20px 0;
-}
-
-.all-these,
-.exact-phrase,
-.any-of-these,
-.none-of-these,
-.numbers-ranging {
-  color: #bdc1c6;
-  font-size: 13px;
-  padding: 0 0 20px 0;
-}
-.box2 {
-  width: 45%;
-  min-width: 500px;
-  display: block;
-  /* border: orange solid; */
-}
-
-.textinput1 {
-  width: 100%;
-  background-color: #202124;
-  border: #5f6368 solid 1px;
-  margin: 10px 0 0 0;
-  height: 25px;
-  color: #bdc1c6;
-}
-
-#advform input {
-  padding: 5px 5px;
-  box-sizing: border-box;
-}
-
-.empty {
-  width: 100%;
-  /* border: blue solid; */
-  height: 10%;
-}
-
-.box3 {
-  display: block;
-  width: 28%;
-  min-width: 250px;
-  text-align: left;
-}
-
-.sub-box {
-  display: flex;
-  /* border: orange solid; */
-}
-
-.mid-text {
-  color: #bdc1c6;
-  width: auto;
-  font-size: 13px;
-  position: relative;
-  top: 1rem;
-  padding: 0 6px;
-}
-
-.to-do {
-  color: #ffffff;
-}
-
-.end-text1,
-.end-text2,
-.end-text3,
-.end-text4,
-.end-text5 {
-  padding: 0 0 0 10px;
-  margin: 10px 0 0 0;
-  color: #bdc1c6;
-  font-size: 11px;
-  width: 90%;
-  /* height: fit-content; */
-  height: 25px;
-  /* border: green solid; */
-}
-
-.accent {
-  color: #ffffff;
+.main-container {
+  border: 3px lime solid;
+  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 @media screen and (max-width: 1056px) {
