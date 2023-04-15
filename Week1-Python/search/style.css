@@ -162,6 +162,7 @@ a {
 }
 
 form {
+  width: 100vw;
 }
 
 .find {
