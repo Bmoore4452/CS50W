@@ -7,31 +7,44 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<header>
-    <nav id="nav-1">
-        <ul>
-            <li>About</li>
-            <li>Store</li>
-        </ul>
-    </nav>
-    <nav id="nav-2">
-        <ul>
-            <li><a href="./advanced-search.html">Advanced</a></li>
-            <a href="./images.html">
-                <li>Images</li>
-            </a>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">B</a>
-                <div class="dropdown-content">
-                    <a href="./advanced-search.html">Advanved</a>
-                </div>
-            </li>
-        </ul>
-    </nav>
-</header>
+<div class="wrapper">
 
-<body>
-    <div class="search-container">
+    <body>
+        <header>
+            <nav id="nav-1">
+                <ul>
+                    <li>About</li>
+                    <li>Store</li>
+                </ul>
+            </nav>
+            <nav id="nav-2">
+                <ul>
+                    <li><a href="./advanced-search.html">Advanced</a></li>
+                    <a href="./images.html">
+                        <li>Images</li>
+                    </a>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">B</a>
+                        <div class="dropdown-content">
+                            <a href="./advanced-search.html">Advanved</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="search-container">
+            <div class="labelbox">
+                <div class="label">Google</div>
+            </div>
+            <form action="https://google.com/search" id="homeform">
+                <input id="search-field" type="text" name="q">
+                <div class="search-buttons">
+                    <input id="search-button" type="submit" value="Google Search">
+                    <input id="search-button" type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </div>
+        <!-- <div class="search-container">
         <div class="labelbox">
             <div class="label">Google</div>
         </div>
@@ -41,9 +54,11 @@
                 <input id="search-button" type="submit" value="Google Search">
                 <input id="search-button" type="submit" value="I'm Feeling Lucky">
             </div>
-    </div>
-    <div class="empty-block"></div>
+        </form>
+        <div class="empty-block"></div>
+    </div> -->
 
-</body>
+    </body>
+</div>
 
 </html>
