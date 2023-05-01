@@ -257,6 +257,24 @@ a {
   line-height: 1;
 }
 
+.line3 {
+  height: min(14%, 4vh);
+  width: 100%;
+  margin: 1% 0 0 0;
+}
+
+.adv-button {
+  user-select: none;
+  line-height: 100%;
+  height: min(3vw, 30px);
+  width: min(13vw,120px);
+  background: #8ab4f8;
+  border-color: #8ab4f8;
+  color: #202124;
+  position: absolute;
+  left: 60vw;
+}
+
 @media screen and (max-width: 1200px) {
   .end-text1,
   .end-text2,
