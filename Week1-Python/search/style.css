@@ -234,7 +234,7 @@ a {
   color: #969ba1;
   font-size: min(11px);
   /* margin: 0 0 0 1%; */
-  white-space: pre;
+  /* white-space: pre; */
   width: 30%;
   line-height: 2;
 }
@@ -252,9 +252,31 @@ a {
 .end-text2 {
   color: #969ba1;
   font-size: min(11px);
-  white-space: pre;
+  /* white-space: pre; */
   width: 30%;
   line-height: 1;
+}
+
+.adv-buttonbox {
+  width: min(60%, 600px);
+  height: min(100%, 3vw);
+  display: flex;
+  justify-content: end;
+}
+
+.adv-button {
+  user-select: none;
+  line-height: 100%;
+  height: min(3vw, 30px);
+  width: min(120px, 10vw);
+  font-size: min(11px, 1vw);
+  font-weight: bold;
+}
+
+.adv-button-action {
+  background: #8ab4f8;
+  border-color: #8ab4f8;
+  color: #202124;
 }
 
 @media screen and (max-width: 1200px) {
